@@ -65,6 +65,11 @@ header {
 		}
 			#catalog ul#cat {
 				display: none;
+				padding-left: 0px;
+				margin-left: 15px;
+				text-indent: 20px;
+				white-space: nowrap;
+				width: 230px;
 			}
 			#catalog:hover ul#cat{
 				position: relative;
@@ -72,7 +77,9 @@ header {
 				display: block;
 				list-style: none;
 				text-align: left;
-				background-color: lightgrey;
+				background-image: url("img/rline.png");
+				background-repeat: repeat-y;
+				background-color: white;
 				z-index:1;
 			}
 				.lists ul{
@@ -82,22 +89,26 @@ header {
 					position: absolute;
 					left: 100px;
 					width: 100%;
-					border: 1px solid;
 					display: block;
 					list-style: none;
-					background-color: lightblue;
+					background-image: url("img/rline.png");
+					background-repeat: repeat-y;
+					background-color: white;
 					padding: 0px 0px;
-					text-align: center;
 					z-index: 1;
 				}
+				
 				li:hover {
-					background-color: silver;
+					background-image: url("img/chline.png");
+					background-repeat: repeat-y;
+
 				}
 				.lists a {
 					display: block;
 					text-decoration: none;
-					color: white;
-					line-height: 40px;
+					color: black;
+					line-height: 3em;
+					border-bottom: 1px solid;
 				}
 				
 		#search {
