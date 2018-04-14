@@ -1,0 +1,225 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+img {
+	max-width: 250px;
+	float: left;
+}
+
+/*------------------------ header -------------------------*/
+header {
+	height: 45px;
+	color: black;
+}
+
+#header-container {
+	margin: 0 auto;	
+	display: block;
+}
+	#logo {
+		width: 25%;
+		float: left;
+		font-size: 40px;
+		font-family: europe, calibri, arial;
+		cursor: pointer;
+	}
+	#destination {
+		width: 25%;
+		float: left;
+		padding-top: 10px;
+	}
+	#help {
+		width: 50%;
+		float: left;
+		padding-top: 10px;
+	}
+/*------------------------ menu -------------------------*/	
+#main_menu {
+	background-color: lightblue;
+	height: 40px;
+	width: 100%;
+	float: left;
+}
+
+	#center_menu {
+		height: 100%;
+		position: relative;
+		line-height: 40px;
+	}
+	
+	#navigator_wrap {
+		height: 100%;
+		width: 100%;
+	}
+		#catalog {
+			text-align: center;
+		}
+		#catalog:hover, .menu-right:hover {
+			background-color: lightslategrey;
+			cursor: pointer;
+		}
+			#catalog ul#cat {
+				display: none;
+			}
+			#catalog:hover ul#cat{
+				position: relative;
+				top: -16px;
+				display: block;
+				list-style: none;
+				text-align: left;
+				background-color: lightgrey;
+				z-index:1;
+			}
+				.lists ul{
+					display: none;
+				}
+				.lists:hover ul {
+					position: absolute;
+					left: 100px;
+					width: 100%;
+					border: 1px solid;
+					display: block;
+					list-style: none;
+					background-color: lightblue;
+					padding: 0px 0px;
+					text-align: center;
+					z-index: 1;
+				}
+				li:hover {
+					background-color: silver;
+				}
+				.lists a {
+					display: block;
+					text-decoration: none;
+					color: white;
+					line-height: 40px;
+				}
+				
+		#search {
+			width: 25%;
+			
+		}
+			input#ask {
+				width: 100%;
+				height: 100%;
+				font-family: europe, arial, sans-serif;
+				font-size: 16px;
+			}
+				select {
+					cursor: pointer;
+				}
+		#orders {
+			
+		}
+
+.menu-left {
+	color: white;
+	width: 15%;
+	height: 100%;
+	float: left;
+	font-family: europe, arial, sans-serif;
+	font-size: 16px;	
+	margin-right: 20px;
+}
+.menu-right {
+	color: white;
+	width: 8%;
+	height: 100%;
+	float: left;
+	font-family: europe, arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	white-space: nowrap !important;
+	min-width: 128px;
+}
+
+@media screen and (max-width: 1296px) {
+	.menu-right {
+		font-size: 11px;
+		min-width: 80px;
+	}
+	.menu-left {
+		font-size: 12px;	
+	}
+	input#ask {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	#destination, #help {
+		clear: both;
+	}
+	.menu-right {
+		background-color: lightblue; 
+		width: 25%;
+	}
+	#navigator_wrap {
+		clear: both;
+	}
+	#catalog, #ask {
+		width: 50%;
+	}
+	#contentcolumn {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	
+	#contentcolumn {
+		min-width: 320px;
+	}
+	.menu-right {
+		max-width: 80px;
+	}
+}
+/*------------------------ /menu -------------------------*/
+/*------------------------ /header -------------------------*/
+/*------------------------ content -------------------------*/
+content {
+	height: 100%;
+}
+
+#wrapper {
+	background-color: white;
+	width: 100%;
+}	
+
+	#leftcolumn {
+		width: 10%;
+		height: 100%;
+		float: left;
+	}
+
+	#rightcolumn {
+		width: 10%;
+		height: 100%;
+		float: left;
+	}
+
+	#contentcolumn {
+		width: 80%;
+		background-color: white;
+		text-align: justify;
+		float: left;
+	}
+		#description {
+			padding: 15px;
+		}
+/*------------------------ /content -------------------------*/	
+/*------------------------ footer -------------------------*/
+   
+#footercontainer {
+	width: 100%;
+	height: 250px;
+	background-color: grey;
+	clear: both;
+}
+
+/*------------------------ /footer -------------------------*/

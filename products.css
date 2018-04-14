@@ -1,0 +1,41 @@
+.product {
+	background-color: white;
+	height: auto;
+	width: 19%;
+	float: left;
+	margin: 0.5% 0.5%;
+}
+.price {
+	font-weight: bold;
+	font-family: arial;
+	margin: 8px 0px;
+}
+	.rub {
+		line-height: 5px;
+		width: 0.4em;
+		border-bottom: 1px solid #000; 
+		display: inline-block; 
+	}
+.description {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.title {
+	clear: both;
+}
+	.title a {
+		text-decoration: none;
+	}
+	.title a:hover {
+		color: #256AA3;
+	}
+.addInCart {
+	margin: 8px 0px;
+}
+	.addInCart a{
+		text-decoration: none;
+	}
+img#prod {
+	max-height: 200px;
+}
