@@ -70,12 +70,12 @@
 					<li class = 'lists'><a href = ''>Спорт и отдых</a>
 						<ul>
 							<li><a href = ''>Штанги</a></li>
-							<li><a href = ''>Штанги</a></li>
-							<li><a href = ''>Штанги</a></li>
-							<li><a href = ''>Штанги</a></li>
-							<li><a href = ''>Штанги</a></li>
-							<li><a href = ''>Штанги</a></li>
-							<li><a href = ''>Штанги</a></li>
+							<li><a href = ''>Гантели</a></li>
+							<li><a href = ''>Тренажеры</a></li>
+							<li><a href = ''>Грифы</a></li>
+							<li><a href = ''>Диски</a></li>
+							<li><a href = ''>Гири</a></li>
+							<li><a href = ''>Коврики</a></li>
 						</ul>
 					</a></li>
 				</ul>
